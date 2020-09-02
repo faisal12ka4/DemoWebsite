@@ -1,0 +1,11 @@
+a {
+    text-decoration: none !important;
+}
+
+.card {
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px;
+}

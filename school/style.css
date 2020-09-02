@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Cinzel&family=Great+Vibes&family=Ubuntu&display=swap');
+
+:root {
+    --font-ubuntu: 'Ubuntu', sans-serif;
+    --font-baloo: 'Baloo Tamma 2', sans-serif;
+    --font-cinzel: 'Cinzel', serif;
+    --font-cursive: 'Great Vibes', cursive;
+    --color1: rgb(32, 31, 107);
+    --color2: rgb(3, 156, 216);
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+button,
+button:focus {
+    outline: none !important;
+}
+
+/* color */
+.bg-1 {
+    background: var(--color1);
+}
+
+.bg-2 {
+    background: var(--color2);
+}
+
+.text-1 {
+    color: rgb(32, 31, 107);
+}
+
+.text-2 {
+    color: rgb(10, 173, 238);
+}
+
+/* fonts */
+
+/* 
+font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+.font-baloo {
+    font-family: 'Baloo Tamma 2', sans-serif;
+}
+
+.font-cinzel {
+    font-family: 'Cinzel', sans-serif;
+}
+
+.font-cursive {
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* header */
+.logo {
+    width: 120px;
+}
+
+.school-name {
+    font-size: 5vw;
+    line-height: auto;
+}
+
+/* navbar */
+.menu {
+    font-size: 25px;
+}
+
+.menu-icon i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.menu-icon .fa-times {
+    display: none;
+}
+
+.menu-icon.active .fa-times {
+    display: block;
+}
+
+.menu-icon.active .fa-bars {
+    display: none;
+}
+
+.nav-link {
+    color: #eee;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: var(--font-baloo);
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.sub-menu {
+    background: #fff;
+}
+
+.sub-sub-menu {
+    background: #eee;
+}
+
+.sub-sub-sub-menu {
+    background: #ddd;
+}
+
+/* banner area */
+.banner {
+    height: 60vw;
+    width: 100%;
+}
+
+.banner1 {
+    background: linear-gradient(to right, rgba(129, 42, 228, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner/1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner2 {
+    background: linear-gradient(to right, rgba(0, 225, 255, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner/2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner3 {
+    background: linear-gradient(to right, rgba(5, 255, 180, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner/3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* gallery area */
+#gallery-area img {
+    height: 300px;
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+    margin: auto;
+}
+
+/* testimonal area */
+#testimonal-area img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: auto;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+#testimonal-area .owl-dot span {
+    background: rgb(21, 21, 49) !important;
+}
+
+#testimonal-area .owl-dot.active span {
+    background: rgb(22, 202, 247) !important;
+}
+
+/* School gallery */
+#school-gallery .img {
+    padding: 5px;
+}
+
+#school-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#school-gallery img:hover {
+    box-shadow: 0 0 10px #000;
+    transform: scale(1.05);
+}
