@@ -1,5 +1,4 @@
 <?php
-if (isset($_POST["submit-contact"])) {
     $name = $_POST["name"];
     $email = $_POST["email"];
     $mobile = $_POST["mobile"];
@@ -13,4 +12,4 @@ if (isset($_POST["submit-contact"])) {
     $mail = mail($to, $subject, $body, $header);
 
     header("location:index.html");
-}
+?>
