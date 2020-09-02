@@ -148,8 +148,7 @@
             <div><img src="images/gallery/4.jpg" alt=""></div>
             <div><img src="images/gallery/5.jpg" alt=""></div>
         </div>
-        <a href="gallery.html" class="btn btn-block mt-2 bg-2 text-white">View Complete Gallery <i
-                class="fas fa-image"></i></a>
+        <a href="gallery.html" class="btn btn-block mt-2 bg-2 text-white">View Complete Gallery <i class="fas fa-image"></i></a>
     </div>
 
     <!-- testimonal area -->
@@ -206,8 +205,7 @@
                     impedit
                     obcaecati. Quisquam perspiciatis natus maxime eveniet consequatur tempore distinctio nobis deleniti
                     sunt, quis repellat quam cupiditate itaque, placeat saepe fuga? Rerum sunt perferendis odio!</p>
-                <a href="faculty.html" class="btn bg-2 text-white mt-3">View our faculties <i
-                        class="fas fa-users"></i></a>
+                <a href="faculty.html" class="btn bg-2 text-white mt-3">View our faculties <i class="fas fa-users"></i></a>
             </div>
         </div>
     </div>
@@ -222,8 +220,7 @@
                     <input type="text" name="email" placeholder="Email Address *" class="form-control mt-3" required />
                     <input type="text" name="mobile" placeholder="Mobile Number" class="form-control mt-3" />
                     <textarea name="comment" placeholder="Message *" class="form-control mt-3" required></textarea>
-                    <button type="submit" name="submit-contact"
-                        class="btn btn-block bg-2 text-white mt-3">Submit</button>
+                    <button type="submit" name="submit-contact" class="btn btn-block bg-2 text-white mt-3">Submit</button>
                 </form>
             </div>
             <div class="col-lg-6 col-12">
