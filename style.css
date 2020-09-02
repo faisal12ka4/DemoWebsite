@@ -1,3 +1,11 @@
+.font-lobster {
+    font-family: 'Lobster', sans-serif;
+}
+
+.font-lucky {
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
 a {
     text-decoration: none !important;
 }
