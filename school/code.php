@@ -1,8 +1,8 @@
 <?php
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $mobile = $_POST["mobile"];
-    $comment = $_POST["comment"];
+    $name = $_REQUEST["name"];
+    $email = $_REQUEST["email"];
+    $mobile = $_REQUEST["mobile"];
+    $comment = $_REQUEST["comment"];
 
     $to = "whatfaisal12ka4@gmail.com";
     $subject = "New Message From John Doe";
